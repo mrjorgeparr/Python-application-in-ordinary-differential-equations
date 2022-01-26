@@ -8,7 +8,7 @@ Which is the equation that describes the front shock-absorber based on a spring-
 typical mountain bike, u(t) is the distorsion with respect to the equilibrium point of the aforementioned
 spring. The value c determines the viscous damping of the spring and it is measured in N/ms, and k is measured in N/m
 
-The calculations are performed for a rider mass of 80kg and a bike mass of twelve, in such a way that m = (80 + 12)/2 = 46 kg and g = 9.8 m/s^2
+The calculations are performed for a rider mass of 80kg and a bike mass of twelve, in such a way that m = (80 + 12)/2 = 46 kg and g = 9.8 m/s<sup>2</sup>
 The solver handles all possible cases that may result because of the different values in c and k, which in turn determine the sign of the discriminant
 of the characteristic polynomial, in the process of computing the solution of the associated homogeneous problem, since the particular solution remains
 the same for any value of c and k.
