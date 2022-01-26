@@ -22,7 +22,9 @@ The three different cases that the solver handles are:
 
 The solutions are computed with the following initial conditions:
   - At t = 0, which is the exact moment of impact the spring must be stable and thus u(0) = 0
-  - At t = 0, the velocity of impact is given by v = \sqrt{2gh}</sqrt>, which is what u'(0) should equal to.
+  - At t = 0, the velocity of impact is given by the square root of 2*g*h, which is what u'(0) should equal to.
+
+From the main file, we can write into the sets of values for k and c, and it will write into an output file the solution for all the different cases that may arise. Although it only handles cases for a rider mass of 80 kg and a bike mass of 12 kg, it could easily be modified to consider different combinations of this two parameters.
 
 
 
