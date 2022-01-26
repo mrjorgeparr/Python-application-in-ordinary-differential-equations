@@ -1,4 +1,6 @@
 # Python-application-in-ordinary-differential-equations
+Main file: calculations.py
+
 
 
 The objective is to handle all possible solutions that may arise from the following equation, considering a fall from height h:
@@ -17,5 +19,10 @@ The three different cases that the solver handles are:
   - Double real roots, which is the case of the positive discrimant in the of the characteristic polynomial, which means that c<sup>2</sup>> 4mk, the system is overdamped.
   - Repeated real roots, which is the case of 0 discriminant, which means that the critically damped system.
   - Conjugate imaginary roots, which is the case of negative discriminant, in which the system is underdamped.
+
+The solutions are computed with the following initial conditions:
+  - At t = 0, which is the exact moment of impact the spring must be stable and thus u(0) = 0
+  - At t = 0, the velocity of impact is given by v = \sqrt{2gh}, which is what u'(0) should equal to.
+
 
 
