@@ -22,7 +22,7 @@ The three different cases that the solver handles are:
 
 The solutions are computed with the following initial conditions:
   - At t = 0, which is the exact moment of impact the spring must be stable and thus u(0) = 0
-  - At t = 0, the velocity of impact is given by v = <sqrt>2gh</sqrt>, which is what u'(0) should equal to.
+  - At t = 0, the velocity of impact is given by v = \sqrt{2gh}</sqrt>, which is what u'(0) should equal to.
 
 
 
