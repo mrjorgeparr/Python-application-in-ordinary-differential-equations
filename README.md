@@ -14,7 +14,7 @@ of the characteristic polynomial, in the process of computing the solution of th
 the same for any value of c and k.
 
 The three different cases that the solver handles are:
-  - Double real roots, which is the case of the positive discrimant in the of the characteristic polynomial, which means that c^2 > 4mk, the system is overdamped.
+  - Double real roots, which is the case of the positive discrimant in the of the characteristic polynomial, which means that c<sup>2</sup>> 4mk, the system is overdamped.
   - Repeated real roots, which is the case of 0 discriminant, which means that the critically damped system.
   - Conjugate imaginary roots, which is the case of negative discriminant, in which the system is underdamped.
 
