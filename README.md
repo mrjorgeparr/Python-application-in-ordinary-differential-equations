@@ -28,5 +28,5 @@ This results in a 2 x 2 system to solve for the two coefficients to fit the gene
 
 From the main file, we can write into the sets of values for k and c, and it will write into an output file the solution for all the different cases that may arise. Although it only handles cases for a rider mass of 80 kg and a bike mass of 12 kg, it could easily be modified to consider different combinations of these two parameters.
 
-
+This simplified case allows the usage of exact methods and not numerical ones in order to solve the differential equation
 
